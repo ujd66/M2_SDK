@@ -1,0 +1,28 @@
+============================================================
+Time  2025/05/13 16:33:46 412 
+============================================================
+[2025/05/13 16:33:46 412] isr_local  2210 os_type is:  Linux  
+[2025/05/13 16:33:46 412] isr_local  2219 SYS_MSG_LOAD_LOCAL  
+[2025/05/13 16:33:46 412] isr_local  2248 SYS_MSG_REGCB_LOCAL| param0 =  msp_status_cb  
+[2025/05/13 16:33:46 412] isr_local  2248 SYS_MSG_REGCB_LOCAL| param0 =  build_grm_cb  
+[2025/05/13 16:33:46 413] isr_local  2261 ASR_LOCAL_MSG_BUILD_GRM  
+[2025/05/13 16:33:46 413] isr_local  1902 grm_init | params:  engine_type = local, 		asr_res_path = fo|/home/bxi/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet, sample_rate = 16000, 		grm_build_path = /home/bxi/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld,   
+[2025/05/13 16:33:46 413] isr_local  804  engine_type  :  local  
+[2025/05/13 16:33:46 413] isr_local  804  asr_res_path  :  fo|/home/bxi/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2025/05/13 16:33:46 413] isr_local  804  sample_rate  :  16000  
+[2025/05/13 16:33:46 413] isr_local  804  grm_build_path  :  /home/bxi/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2025/05/13 16:33:46 414] isr_local  1001 file count =   1  
+[2025/05/13 16:33:46 414] isr_local  924  file open type is:   fo  
+[2025/05/13 16:33:46 414] isr_local  957  /home/bxi/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  0  0  
+[2025/05/13 16:33:46 414] isr_local  1019 speech_plus_setting  0  
+[2025/05/13 16:33:46 414] isr_local  1032 2  nil  /home/bxi/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  0  0  
+[2025/05/13 16:33:46 415] isr_local  1034 res_ver  2  
+[2025/05/13 16:33:46 415] isr_local  1035 res 5  71cf38bd64224e3c57c59859954dbd37  
+[2025/05/13 16:33:46 415] isr_local  1036 res_new_old_mark  v5pp  
+[2025/05/13 16:33:46 415] isr_local  1037 res_usr_name  ""  
+[2025/05/13 16:33:46 415] isr_local  1038 res_expires  1754821127  
+[2025/05/13 16:33:46 415] isr_local  1039 err  0  
+[2025/05/13 16:33:46 415] isr_local  1070 now expires:  1747125226  1754821127  
+[2025/05/13 16:33:46 415] isr_local  1643 proc_retcode_grm | errorcode =  0  
+[2025/05/13 16:33:46 433] isr_local  2021 grammar id:call  
+[2025/05/13 16:33:46 433] isr_local  1635 onGrmLocalServiceCb  0  call  

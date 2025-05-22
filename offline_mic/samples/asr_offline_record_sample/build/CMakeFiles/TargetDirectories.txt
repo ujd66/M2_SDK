@@ -1,0 +1,3 @@
+/home/wheeltec/SR2.2-HR1.1.3/offline_mic/samples/asr_offline_record_sample/build/CMakeFiles/rebuild_cache.dir
+/home/wheeltec/SR2.2-HR1.1.3/offline_mic/samples/asr_offline_record_sample/build/CMakeFiles/offline_record_lib.dir
+/home/wheeltec/SR2.2-HR1.1.3/offline_mic/samples/asr_offline_record_sample/build/CMakeFiles/edit_cache.dir

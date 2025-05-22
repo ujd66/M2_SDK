@@ -1,0 +1,407 @@
+[2022/03/29 14:42:41 219] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/03/29 14:42:41 320] grm_lex    71   0  call  
+============================================================
+Time  2022/03/29 14:47:01 150 
+============================================================
+[2022/03/29 14:47:01 150] grm_lex    264  SYS_MSG_LOAD  
+[2022/03/29 14:47:01 150] grm_lex    281  SYS_MSG_REGCB  
+[2022/03/29 14:47:01 150] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/03/29 14:47:01 150] grm_lex    281  SYS_MSG_REGCB  
+[2022/03/29 14:47:01 151] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/03/29 14:47:01 151] grm_lex    100  grm_type :  bnf  
+[2022/03/29 14:47:01 151] grm_lex    106  engine_type  :  local  
+[2022/03/29 14:47:01 151] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/SR2.2-HR1.1.3/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/03/29 14:47:01 151] grm_lex    106  sample_rate  :  16000  
+[2022/03/29 14:47:01 151] grm_lex    106  grm_build_path  :  /home/wheeltec/SR2.2-HR1.1.3/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/03/29 14:47:01 153] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/03/29 14:47:01 164] grm_lex    71   0  call  
+============================================================
+Time  2022/03/29 14:47:37 351 
+============================================================
+[2022/03/29 14:47:37 351] grm_lex    264  SYS_MSG_LOAD  
+[2022/03/29 14:47:37 351] grm_lex    281  SYS_MSG_REGCB  
+[2022/03/29 14:47:37 351] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/03/29 14:47:37 351] grm_lex    281  SYS_MSG_REGCB  
+[2022/03/29 14:47:37 351] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/03/29 14:47:37 351] grm_lex    100  grm_type :  bnf  
+[2022/03/29 14:47:37 351] grm_lex    106  engine_type  :  local  
+[2022/03/29 14:47:37 351] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/SR2.2-HR1.1.3/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/03/29 14:47:37 351] grm_lex    106  sample_rate  :  16000  
+[2022/03/29 14:47:37 351] grm_lex    106  grm_build_path  :  /home/wheeltec/SR2.2-HR1.1.3/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/03/29 14:47:37 354] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/03/29 14:47:37 362] grm_lex    71   0  call  
+============================================================
+Time  2023/03/21 19:10:28 085 
+============================================================
+[2023/03/21 19:10:28 086] grm_lex    264  SYS_MSG_LOAD  
+[2023/03/21 19:10:28 086] grm_lex    281  SYS_MSG_REGCB  
+[2023/03/21 19:10:28 086] grm_lex    267  SYS_MSG_UNLOAD  
+[2023/03/21 19:10:28 087] grm_lex    281  SYS_MSG_REGCB  
+[2023/03/21 19:10:28 087] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2023/03/21 19:10:28 087] grm_lex    100  grm_type :  bnf  
+[2023/03/21 19:10:28 087] grm_lex    106  engine_type  :  local  
+[2023/03/21 19:10:28 087] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2023/03/21 19:10:28 087] grm_lex    106  sample_rate  :  16000  
+[2023/03/21 19:10:28 087] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2023/03/21 19:10:28 090] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2023/03/21 19:10:28 104] grm_lex    71   11212  nil  
+============================================================
+Time  2023/01/01 19:10:06 305 
+============================================================
+[2023/01/01 19:10:06 305] grm_lex    264  SYS_MSG_LOAD  
+[2023/01/01 19:10:06 305] grm_lex    281  SYS_MSG_REGCB  
+[2023/01/01 19:10:06 305] grm_lex    267  SYS_MSG_UNLOAD  
+[2023/01/01 19:10:06 306] grm_lex    281  SYS_MSG_REGCB  
+[2023/01/01 19:10:06 306] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2023/01/01 19:10:06 306] grm_lex    100  grm_type :  bnf  
+[2023/01/01 19:10:06 306] grm_lex    106  engine_type  :  local  
+[2023/01/01 19:10:06 306] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2023/01/01 19:10:06 306] grm_lex    106  sample_rate  :  16000  
+[2023/01/01 19:10:06 306] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2023/01/01 19:10:06 308] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2023/01/01 19:10:06 322] grm_lex    71   11212  nil  
+============================================================
+Time  2022/10/01 19:10:16 790 
+============================================================
+[2022/10/01 19:10:16 790] grm_lex    264  SYS_MSG_LOAD  
+[2022/10/01 19:10:16 790] grm_lex    281  SYS_MSG_REGCB  
+[2022/10/01 19:10:16 790] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/10/01 19:10:16 791] grm_lex    281  SYS_MSG_REGCB  
+[2022/10/01 19:10:16 791] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/10/01 19:10:16 791] grm_lex    100  grm_type :  bnf  
+[2022/10/01 19:10:16 791] grm_lex    106  engine_type  :  local  
+[2022/10/01 19:10:16 791] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/10/01 19:10:16 791] grm_lex    106  sample_rate  :  16000  
+[2022/10/01 19:10:16 791] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/10/01 19:10:16 793] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/10/01 19:10:16 807] grm_lex    71   11212  nil  
+============================================================
+Time  2022/06/01 19:10:08 803 
+============================================================
+[2022/06/01 19:10:08 803] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:10:08 803] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:10:08 803] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:10:08 804] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:10:08 804] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:10:08 804] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:10:08 804] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:10:08 804] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:10:08 804] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:10:08 804] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:10:08 806] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:10:08 877] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:10:13 685 
+============================================================
+[2022/06/01 19:10:13 685] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:10:13 685] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:10:13 686] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:10:13 686] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:10:13 686] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:10:13 686] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:10:13 686] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:10:13 686] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:10:13 686] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:10:13 687] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:10:13 688] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:10:13 726] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:10:18 624 
+============================================================
+[2022/06/01 19:10:18 624] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:10:18 625] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:10:18 625] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:10:18 625] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:10:18 626] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:10:18 626] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:10:18 626] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:10:18 626] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:10:18 626] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:10:18 626] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:10:18 628] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:10:18 658] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:10:23 664 
+============================================================
+[2022/06/01 19:10:23 664] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:10:23 664] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:10:23 665] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:10:23 665] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:10:23 665] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:10:23 665] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:10:23 665] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:10:23 666] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:10:23 666] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:10:23 666] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:10:23 668] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:10:23 695] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:10:28 604 
+============================================================
+[2022/06/01 19:10:28 604] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:10:28 604] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:10:28 605] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:10:28 605] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:10:28 605] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:10:28 605] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:10:28 605] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:10:28 605] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:10:28 606] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:10:28 606] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:10:28 608] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:10:28 641] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:11:28 123 
+============================================================
+[2022/06/01 19:11:28 123] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:11:28 123] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:11:28 123] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:11:28 124] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:11:28 124] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:11:28 124] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:11:28 124] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:11:28 124] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:11:28 124] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:11:28 124] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:11:28 126] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:11:28 160] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:11:36 061 
+============================================================
+[2022/06/01 19:11:36 061] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:11:36 061] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:11:36 061] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:11:36 062] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:11:36 062] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:11:36 062] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:11:36 062] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:11:36 062] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:11:36 062] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:11:36 062] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:11:36 064] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:11:36 094] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:11:44 145 
+============================================================
+[2022/06/01 19:11:44 145] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:11:44 145] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:11:44 145] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:11:44 145] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:11:44 146] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:11:44 146] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:11:44 146] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:11:44 146] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:11:44 146] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:11:44 146] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:11:44 148] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:11:44 178] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:12:47 890 
+============================================================
+[2022/06/01 19:12:47 890] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:12:47 891] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:12:47 891] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:12:47 891] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:12:47 892] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:12:47 892] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:12:47 892] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:12:47 892] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:12:47 892] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:12:47 892] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:12:47 894] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:12:47 926] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:12:53 602 
+============================================================
+[2022/06/01 19:12:53 602] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:12:53 602] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:12:53 602] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:12:53 603] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:12:53 603] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:12:53 603] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:12:53 603] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:12:53 603] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:12:53 603] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:12:53 603] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:12:53 605] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:12:53 641] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:13:01 564 
+============================================================
+[2022/06/01 19:13:01 564] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:13:01 565] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:13:01 565] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:13:01 565] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:13:01 566] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:13:01 566] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:13:01 566] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:13:01 566] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:13:01 566] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:13:01 566] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:13:01 568] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:13:01 596] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:13:07 216 
+============================================================
+[2022/06/01 19:13:07 216] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:13:07 216] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:13:07 216] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:13:07 217] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:13:07 217] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:13:07 217] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:13:07 217] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:13:07 217] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:13:07 217] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:13:07 218] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:13:07 219] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:13:07 248] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:13:15 180 
+============================================================
+[2022/06/01 19:13:15 180] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:13:15 181] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:13:15 181] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:13:15 181] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:13:15 182] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:13:15 182] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:13:15 182] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:13:15 182] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:13:15 182] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:13:15 182] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:13:15 184] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:13:15 212] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:18:08 486 
+============================================================
+[2022/06/01 19:18:08 487] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:18:08 487] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:18:08 487] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:18:08 487] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:18:08 488] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:18:08 488] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:18:08 488] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:18:08 488] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:18:08 488] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:18:08 488] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:18:08 490] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:18:08 522] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:18:11 633 
+============================================================
+[2022/06/01 19:18:11 633] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:18:11 633] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:18:11 633] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:18:11 634] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:18:11 634] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:18:11 634] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:18:11 634] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:18:11 634] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:18:11 634] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:18:11 635] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:18:11 636] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:18:11 666] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:18:14 785 
+============================================================
+[2022/06/01 19:18:14 785] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:18:14 785] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:18:14 786] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:18:14 786] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:18:14 786] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:18:14 786] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:18:14 786] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:18:14 786] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:18:14 786] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:18:14 787] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:18:14 788] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:18:14 820] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:21:49 643 
+============================================================
+[2022/06/01 19:21:49 643] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:21:49 643] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:21:49 644] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:21:49 644] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:21:49 644] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:21:49 644] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:21:49 644] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:21:49 644] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:21:49 645] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:21:49 645] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:21:49 647] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:21:49 679] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:21:57 661 
+============================================================
+[2022/06/01 19:21:57 661] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:21:57 661] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:21:57 661] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:21:57 662] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:21:57 662] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:21:57 662] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:21:57 662] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:21:57 662] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:21:57 662] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:21:57 662] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:21:57 664] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:21:57 697] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:22:05 744 
+============================================================
+[2022/06/01 19:22:05 744] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:22:05 745] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:22:05 745] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:22:05 745] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:22:05 745] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:22:05 746] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:22:05 746] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:22:05 746] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:22:05 746] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:22:05 746] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:22:05 748] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:22:05 782] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:22:13 700 
+============================================================
+[2022/06/01 19:22:13 700] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:22:13 700] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:22:13 701] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:22:13 701] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:22:13 701] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:22:13 701] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:22:13 701] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:22:13 702] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:22:13 702] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:22:13 702] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:22:13 704] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:22:13 733] grm_lex    71   0  call  
+============================================================
+Time  2022/06/01 19:22:21 675 
+============================================================
+[2022/06/01 19:22:21 675] grm_lex    264  SYS_MSG_LOAD  
+[2022/06/01 19:22:21 675] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:22:21 676] grm_lex    267  SYS_MSG_UNLOAD  
+[2022/06/01 19:22:21 676] grm_lex    281  SYS_MSG_REGCB  
+[2022/06/01 19:22:21 676] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2022/06/01 19:22:21 676] grm_lex    100  grm_type :  bnf  
+[2022/06/01 19:22:21 676] grm_lex    106  engine_type  :  local  
+[2022/06/01 19:22:21 676] grm_lex    106  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:22:21 676] grm_lex    106  sample_rate  :  16000  
+[2022/06/01 19:22:21 677] grm_lex    106  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:22:21 679] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2022/06/01 19:22:21 705] grm_lex    71   0  call  
+============================================================
+Time  2025/05/13 16:33:46 397 
+============================================================
+[2025/05/13 16:33:46 397] grm_lex    264  SYS_MSG_LOAD  
+[2025/05/13 16:33:46 398] grm_lex    281  SYS_MSG_REGCB  
+[2025/05/13 16:33:46 398] grm_lex    267  SYS_MSG_UNLOAD  
+[2025/05/13 16:33:46 398] grm_lex    281  SYS_MSG_REGCB  
+[2025/05/13 16:33:46 398] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2025/05/13 16:33:46 398] grm_lex    100  grm_type :  bnf  
+[2025/05/13 16:33:46 398] grm_lex    106  engine_type  :  local  
+[2025/05/13 16:33:46 399] grm_lex    106  asr_res_path  :  fo|/home/bxi/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2025/05/13 16:33:46 399] grm_lex    106  sample_rate  :  16000  
+[2025/05/13 16:33:46 399] grm_lex    106  grm_build_path  :  /home/bxi/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2025/05/13 16:33:46 401] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2025/05/13 16:33:46 434] grm_lex    71   0  call  

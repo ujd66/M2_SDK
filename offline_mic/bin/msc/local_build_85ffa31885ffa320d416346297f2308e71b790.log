@@ -1,0 +1,31 @@
+============================================================
+Time  2022/06/01 19:11:44 156 
+============================================================
+[2022/06/01 19:11:44 156] isr_local  2168 os_type is:  Linux  
+[2022/06/01 19:11:44 156] isr_local  2177 SYS_MSG_LOAD_LOCAL  
+[2022/06/01 19:11:44 157] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  msp_status_cb  
+[2022/06/01 19:11:44 157] isr_local  2265 last gc at  1654125104  
+[2022/06/01 19:11:44 157] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  build_grm_cb  
+[2022/06/01 19:11:44 157] isr_local  2265 last gc at  1654125104  
+[2022/06/01 19:11:44 157] isr_local  2219 ASR_LOCAL_MSG_BUILD_GRM  
+[2022/06/01 19:11:44 157] isr_local  1860 grm_init | params:  engine_type = local, 		asr_res_path = fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet, sample_rate = 16000, 		grm_build_path = /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld,   
+[2022/06/01 19:11:44 158] isr_local  803  engine_type  :  local  
+[2022/06/01 19:11:44 158] isr_local  803  asr_res_path  :  fo|/home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  
+[2022/06/01 19:11:44 158] isr_local  803  sample_rate  :  16000  
+[2022/06/01 19:11:44 158] isr_local  803  grm_build_path  :  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/GrmBuilld  
+[2022/06/01 19:11:44 159] isr_local  1000 file count =   1  
+[2022/06/01 19:11:44 159] isr_local  923  file open type is:   fo  
+[2022/06/01 19:11:44 159] isr_local  956  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  0  0  
+[2022/06/01 19:11:44 159] isr_local  1018 speech_plus_setting  0  
+[2022/06/01 19:11:44 159] isr_local  1031 2  nil  /home/wheeltec/M2_SDK/offline_mic/bin/config/msc/res/asr/common.jet  0  0  
+[2022/06/01 19:11:44 159] isr_local  1033 res_ver  2  
+[2022/06/01 19:11:44 159] isr_local  1034 res 5  2e667396df99b3b0fad50ad9d7c1d33e  
+[2022/06/01 19:11:44 159] isr_local  1035 res_new_old_mark  v5pp  
+[2022/06/01 19:11:44 160] isr_local  1036 res_usr_name  ""  
+[2022/06/01 19:11:44 160] isr_local  1037 res_expires  1654394737  
+[2022/06/01 19:11:44 160] isr_local  1038 err  0  
+[2022/06/01 19:11:44 160] isr_local  1054 lgi appid 5  2e667396df99b3b0fad50ad9d7c1d33e  
+[2022/06/01 19:11:44 160] isr_local  1069 now expires:  1654125104  1654394737  
+[2022/06/01 19:11:44 161] isr_local  1601 proc_retcode_grm | errorcode =  0  
+[2022/06/01 19:11:44 178] isr_local  1979 grammar id:call  
+[2022/06/01 19:11:44 178] isr_local  1593 onGrmLocalServiceCb  0  call  
