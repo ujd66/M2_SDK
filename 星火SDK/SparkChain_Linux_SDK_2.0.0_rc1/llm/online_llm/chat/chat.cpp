@@ -224,7 +224,7 @@ static atomic_bool finish(false);
 const char* PERSONA_SYSTEM_CONTENT = "你是上海半醒科技有限公司开发的人形机器人，名字叫做“精灵”，为客户提供服务";
 const char* USER_ID_FOR_MODEL = "user_elf_robot_session_001"; // 为每个用户或会话设置唯一ID
 const float TEMPERATURE_FOR_MODEL = 0.5f;
-const int MAX_TOKENS_FOR_MODEL = 500;
+const int MAX_TOKENS_FOR_MODEL = 400;
 const char* DOMAIN_FOR_MODEL = "generalv3.5"; // 根据需要选择模型版本，确保与JSON中一致
 // MODIFICATION END: 定义人物设定和相关参数
 

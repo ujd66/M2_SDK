@@ -293,6 +293,22 @@ int main()
 
         printf("\n>>>>>唤醒成功！角度: [%d]\n", angle_int);
         fflush(stdout);
+
+        // 新增功能：输出固定的 ASR 结果
+        const char* predefined_asr_output = "你好精灵，请介绍一下你自己";
+        printf("%s\n", predefined_asr_output);
+        fflush(stdout);
+
+        FILE* outfile = fopen("/tmp/asr_output.txt", "w");
+        if (outfile != NULL) {
+            fprintf(outfile, "IAT Partial Result: [ %s ]\n", predefined_asr_output);
+            fclose(outfile);
+            fprintf(stderr, "DEBUG: Predefined ASR result written to /tmp/asr_output.txt: IAT Partial Result: [ %s ]\n", predefined_asr_output);
+        } else {
+            fprintf(stderr, "ERROR: Failed to open /tmp/asr_output.txt for writing predefined ASR result.\n");
+        }
+        // 新增功能结束
+
         in_conversation_mode = 1;
         last_speech_time = time(NULL); // Initialize last speech time
 
