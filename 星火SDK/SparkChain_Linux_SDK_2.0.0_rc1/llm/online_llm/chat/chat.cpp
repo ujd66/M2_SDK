@@ -221,10 +221,10 @@ using namespace std;
 static atomic_bool finish(false);
 
 // MODIFICATION START: 定义人物设定和相关参数
-const char* PERSONA_SYSTEM_CONTENT = "你是上海半醒科技有限公司开发的人形机器人，名字叫做“精灵”，为客户提供服务";
+const char* PERSONA_SYSTEM_CONTENT = "你是上海半醒科技有限公司开发的人形机器人，名字叫做“精灵”，为客户提供服务，语言要简洁明了，不啰嗦。";
 const char* USER_ID_FOR_MODEL = "user_elf_robot_session_001"; // 为每个用户或会话设置唯一ID
 const float TEMPERATURE_FOR_MODEL = 0.5f;
-const int MAX_TOKENS_FOR_MODEL = 400;
+const int MAX_TOKENS_FOR_MODEL = 80;
 const char* DOMAIN_FOR_MODEL = "generalv3.5"; // 根据需要选择模型版本，确保与JSON中一致
 // MODIFICATION END: 定义人物设定和相关参数
 
@@ -255,47 +255,48 @@ public:
             const char* content  = result->getContent();
             int status           = result->getStatus();
             printf(YELLOW "%s" RESET, content);
-            fflush(stdout); // Flush output immediately
-
-            accumulated_text += content; // Accumulate text chunks            
+            fflush(stdout); // Flush output immediately            accumulated_text += content; // Accumulate text chunks
+            
             if (status == 2) {
                 printf(YELLOW "\n" RESET);
                 finish = true;
                 // Call text_to_speech with the accumulated content
-                if (!accumulated_text.empty()) {                    // 写入控制文件通知ASR暂停监听
-                    FILE* pause_file = fopen("/tmp/tts_speaking", "w");
+                if (!accumulated_text.empty()) {
+                    // 写入控制文件通知ASR暂停监听
+                    FILE* pause_file = fopen("/home/bxi/M2_SDK/log/tts_speaking", "w");
                     if (pause_file != NULL) {
                         fprintf(pause_file, "pause\n");
                         fclose(pause_file);
-                        fprintf(stderr, "DEBUG: TTS signaled ASR to pause via /tmp/tts_speaking\n");
+                        fprintf(stderr, "DEBUG: TTS signaled ASR to pause via /home/bxi/M2_SDK/log/tts_speaking\n");
                     }
                     
                     // 等待更长时间确保ASR已完全暂停
-                    usleep(500000); // 500ms
+                    usleep(100000); // 100ms
                     
                     // 进行语音合成
                     text_to_speech(accumulated_text.c_str(), tts_session_begin_params);
                     accumulated_text.clear(); // Clear accumulated text after synthesis
                     
                     // 语音合成结束后，删除控制文件，通知ASR可以继续监听
-                    if (remove("/tmp/tts_speaking") == 0) {
-                        fprintf(stderr, "DEBUG: TTS signaled ASR to resume by removing /tmp/tts_speaking\n");
+                    if (remove("/home/bxi/M2_SDK/log/tts_speaking") == 0) {
+                        fprintf(stderr, "DEBUG: TTS signaled ASR to resume by removing /home/bxi/M2_SDK/log/tts_speaking\n");
                     }
                     
                     // 给ASR足够的时间恢复监听
-                    usleep(500000); // 500ms
+                    usleep(100000); // 100ms
                 }
             }
         }
     }
-      void onLLMEvent(LLMEvent *event, void *usrContext) override
+    
+    void onLLMEvent(LLMEvent *event, void *usrContext) override
     {
         // 必须实现这个纯虚函数，即使为空
     }
-    
-    void onLLMError(LLMError *error, void *usrContext) override
+      void onLLMError(LLMError *error, void *usrContext) override
     {
-        fprintf(stderr, RED "Spark LLM Error: code=%d, msg=%s, sid=%s\n" RESET, error->getErrCode(), error->getErrMsg(), error->getSid());        finish = true;
+        fprintf(stderr, RED "Spark LLM Error: code=%d, msg=%s, sid=%s\n" RESET, error->getErrCode(), error->getErrMsg(), error->getSid());
+        finish = true;
         accumulated_text.clear(); // Clear on error
     }
 };
@@ -386,10 +387,8 @@ void run_Generation_Async()
         if (llmConfig != nullptr) { /* delete llmConfig; */ } // VERIFY
         return;
     }
-    asyncllm->registerLLMCallbacks(cbs);
-
-    char inputBuffer[4096];
-    const char* input_file_path = "/tmp/asr_output.txt";
+    asyncllm->registerLLMCallbacks(cbs);    char inputBuffer[4096];
+    const char* input_file_path = "/home/bxi/M2_SDK/log/asr_output.txt";
     long last_file_size = -1;
 
     fprintf(stderr, GREEN "Spark LLM ready (using JSON mode with persona '精灵'). Waiting for input from %s...\n" RESET, input_file_path);

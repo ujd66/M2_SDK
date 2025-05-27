@@ -66,7 +66,7 @@ static char* show_iat_result_callback(char *string, char is_over)
 void on_result(const char *result, char is_last)
 {
 	// 首先检查TTS是否正在播放，如果是则忽略此结果
-    FILE* tts_check = fopen("/tmp/tts_speaking", "r");
+    FILE* tts_check = fopen("/home/bxi/M2_SDK/log/tts_speaking", "r");
     if (tts_check != NULL) {
         fprintf(stderr, "DEBUG: Ignoring ASR result because TTS is currently speaking\n");
         fclose(tts_check);
@@ -93,13 +93,13 @@ void on_result(const char *result, char is_last)
             fflush(stdout);
 
             // Also write final result to a temporary file for chat_demo to read
-            FILE* outfile = fopen("/tmp/asr_output.txt", "w"); // Open in write mode to overwrite
+            FILE* outfile = fopen("/home/bxi/M2_SDK/log/asr_output.txt", "w"); // Open in write mode to overwrite
             if (outfile != NULL) {
                 fprintf(outfile, "IAT Partial Result: [ %s ]\n", g_result);
                 fclose(outfile);
-                fprintf(stderr, "DEBUG: Final result written to /tmp/asr_output.txt: IAT Partial Result: [ %s ]\n", g_result); // Log to stderr
+                fprintf(stderr, "DEBUG: Final result written to /home/bxi/M2_SDK/log/asr_output.txt: IAT Partial Result: [ %s ]\n", g_result); // Log to stderr
             } else {
-                fprintf(stderr, "ERROR: Failed to open /tmp/asr_output.txt for writing.\n");
+                fprintf(stderr, "ERROR: Failed to open /home/bxi/M2_SDK/log/asr_output.txt for writing.\n");
             }
 
 
@@ -163,7 +163,7 @@ void *com_wakeup(void* args)
                     usleep(1000);
                     
                     // 检查TTS是否正在播放
-                    FILE* tts_file = fopen("/tmp/tts_speaking", "r");
+                    FILE* tts_file = fopen("/home/bxi/M2_SDK/log/tts_speaking", "r");
                     if (tts_file != NULL) {
                         pause_wakeup_read = 1;
                         static int pause_counter = 0;
@@ -218,15 +218,15 @@ int main()
     // 启动时强制清理可能存在的TTS控制文件
     // 多次尝试确保删除成功
     for(int i=0; i<3; i++) {
-        if (remove("/tmp/tts_speaking") == 0) {
-            fprintf(stderr, "INFO: Removed existing /tmp/tts_speaking file at startup\n");
+        if (remove("/home/bxi/M2_SDK/log/tts_speaking") == 0) {
+            fprintf(stderr, "INFO: Removed existing /home/bxi/M2_SDK/log/tts_speaking file at startup\n");
             break;
         }
         // 如果文件不存在或者其他原因导致删除失败，则尝试创建并立即删除
-        FILE* f = fopen("/tmp/tts_speaking", "w");
+        FILE* f = fopen("/home/bxi/M2_SDK/log/tts_speaking", "w");
         if (f != NULL) {
             fclose(f);
-            remove("/tmp/tts_speaking");
+            remove("/home/bxi/M2_SDK/log/tts_speaking");
         }
         usleep(100000); // 等待100ms再尝试
     }
@@ -241,7 +241,7 @@ int main()
         return -1;
     }
     char log_file_path[256];
-    snprintf(log_file_path, sizeof(log_file_path), "%s/M2_SDK/asr_log.txt", home_dir);
+    snprintf(log_file_path, sizeof(log_file_path), "%s/M2_SDK/log/asr_log.txt", home_dir);
 
     FILE* log_file = fopen(log_file_path, "w");
     if (log_file == NULL) {
@@ -299,13 +299,13 @@ int main()
         printf("%s\n", predefined_asr_output);
         fflush(stdout);
 
-        FILE* outfile = fopen("/tmp/asr_output.txt", "w");
+        FILE* outfile = fopen("/home/bxi/M2_SDK/log/asr_output.txt", "w");
         if (outfile != NULL) {
             fprintf(outfile, "IAT Partial Result: [ %s ]\n", predefined_asr_output);
             fclose(outfile);
-            fprintf(stderr, "DEBUG: Predefined ASR result written to /tmp/asr_output.txt: IAT Partial Result: [ %s ]\n", predefined_asr_output);
+            fprintf(stderr, "DEBUG: Predefined ASR result written to /home/bxi/M2_SDK/log/asr_output.txt: IAT Partial Result: [ %s ]\n", predefined_asr_output);
         } else {
-            fprintf(stderr, "ERROR: Failed to open /tmp/asr_output.txt for writing predefined ASR result.\n");
+            fprintf(stderr, "ERROR: Failed to open /home/bxi/M2_SDK/log/asr_output.txt for writing predefined ASR result.\n");
         }
         // 新增功能结束
 
@@ -336,7 +336,7 @@ int main()
             // 检查TTS是否正在播放，如果正在播放则等待
             FILE* tts_file = NULL;
             int tts_wait_counter = 0;
-            while ((tts_file = fopen("/tmp/tts_speaking", "r")) != NULL) {
+            while ((tts_file = fopen("/home/bxi/M2_SDK/log/tts_speaking", "r")) != NULL) {
                 fprintf(stderr, "DEBUG: Main loop waiting for TTS to finish...\n");
                 fclose(tts_file);
                 sleep(1);
@@ -400,17 +400,17 @@ int main()
         // Exited conversation mode
         fprintf(stderr, "Exited conversation mode. Returning to idle.\n");
 
-        // 清理 /tmp/asr_output.txt 文件
-        // Clean up the /tmp/asr_output.txt file
-        if (remove("/tmp/asr_output.txt") == 0) {
-            fprintf(stderr, "DEBUG: Successfully deleted /tmp/asr_output.txt after conversation.\n");
+        // 清理 /home/bxi/M2_SDK/log/asr_output.txt 文件
+        // Clean up the /home/bxi/M2_SDK/log/asr_output.txt file
+        if (remove("/home/bxi/M2_SDK/log/asr_output.txt") == 0) {
+            fprintf(stderr, "DEBUG: Successfully deleted /home/bxi/M2_SDK/log/asr_output.txt after conversation.\n");
         } else {
             // 如果删除失败，可能是因为文件不存在（这通常不是问题），
             // 或者因为权限等其他问题。
             // If remove fails, it could be because the file doesn't exist (which is often fine),
             // or due to permissions or other issues.
-            // perror("DEBUG: Error deleting /tmp/asr_output.txt"); // 这会打印详细的系统错误信息
-            fprintf(stderr, "DEBUG: Attempted to delete /tmp/asr_output.txt. File might not have existed or another error occurred.\n");
+            // perror("DEBUG: Error deleting /home/bxi/M2_SDK/log/asr_output.txt"); // 这会打印详细的系统错误信息
+            fprintf(stderr, "DEBUG: Attempted to delete /home/bxi/M2_SDK/log/asr_output.txt. File might not have existed or another error occurred.\n");
         }
 
         if_awake = 0; // Reset awake flag to wait for the next wakeup
@@ -418,7 +418,7 @@ int main()
     } // End of while(1) - main loop
 
     // 确保删除TTS控制文件
-    remove("/tmp/tts_speaking");
+    remove("/home/bxi/M2_SDK/log/tts_speaking");
     
     MSPLogout(); // Logout from MSC
     return 0;
