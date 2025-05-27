@@ -1,0 +1,25 @@
+[Unit]
+Description=ASR Offline Record Sample Service
+After=network.target sound.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=bxi
+Group=bxi
+WorkingDirectory=/home/bxi/M2_SDK/offline_mic/bin
+ExecStart=/home/bxi/M2_SDK/offline_mic/bin/asr_offline_record_sample
+Restart=always
+RestartSec=3
+StandardOutput=journal
+StandardError=journal
+
+# 环境变量设置
+Environment=HOME=/home/bxi
+Environment=LD_LIBRARY_PATH=/home/bxi/M2_SDK/offline_mic/libs/x64:/home/bxi/M2_SDK/offline_mic/bin
+
+# 确保日志目录存在
+ExecStartPre=/bin/mkdir -p /home/bxi/M2_SDK/log
+
+[Install]
+WantedBy=multi-user.target

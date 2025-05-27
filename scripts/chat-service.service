@@ -1,0 +1,26 @@
+[Unit]
+Description=Chat Demo Service (SparkChain)
+After=network.target asr-service.service
+Wants=network.target
+Requires=asr-service.service
+
+[Service]
+Type=simple
+User=bxi
+Group=bxi
+WorkingDirectory=/home/bxi/M2_SDK/星火SDK/SparkChain_Linux_SDK_2.0.0_rc1/llm/online_llm/chat
+ExecStart=/home/bxi/M2_SDK/星火SDK/SparkChain_Linux_SDK_2.0.0_rc1/llm/online_llm/chat/chat_demo
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+# 环境变量设置
+Environment=HOME=/home/bxi
+Environment=LD_LIBRARY_PATH=/home/bxi/M2_SDK/星火SDK/SparkChain_Linux_SDK_2.0.0_rc1/libs
+
+# 确保ASR服务先启动，等待一段时间
+ExecStartPre=/bin/sleep 10
+
+[Install]
+WantedBy=multi-user.target
