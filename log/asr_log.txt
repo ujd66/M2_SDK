@@ -1,0 +1,5 @@
+Log output (stderr) redirected to /home/bxi/M2_SDK/log/asr_log.txt
+ASR程序已启动 (stderr test)
+MSPLogin successful.
+Can't Open Serial Port: No such file or directory
+open /dev/wheeltec_mic is failed

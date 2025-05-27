@@ -30,13 +30,22 @@ sudo /home/bxi/M2_SDK/scripts/service_manager.sh start
 /home/bxi/M2_SDK/scripts/service_manager.sh status
 ```
 
+### 4. 快速健康检查
+
+```bash
+/home/bxi/M2_SDK/scripts/service_manager.sh check
+```
+
+### 5. 重启系统验证
+重启后程序会自动启动！
+
 ## 详细使用说明
 
 ### 服务管理命令
 
 ```bash
 # 使用服务管理脚本（推荐）
-sudo /home/bxi/M2_SDK/scripts/service_manager.sh {start|stop|restart|status|logs|install|uninstall}
+sudo /home/bxi/M2_SDK/scripts/service_manager.sh {start|stop|restart|status|logs|install|uninstall|debug|test|check}
 ```
 
 ### 手动systemctl命令

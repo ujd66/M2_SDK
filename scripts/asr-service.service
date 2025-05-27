@@ -1,6 +1,6 @@
 [Unit]
 Description=ASR Offline Record Sample Service
-After=network.target sound.target
+After=network.target
 Wants=network.target
 
 [Service]
@@ -8,18 +8,22 @@ Type=simple
 User=bxi
 Group=bxi
 WorkingDirectory=/home/bxi/M2_SDK/offline_mic/bin
-ExecStart=/home/bxi/M2_SDK/offline_mic/bin/asr_offline_record_sample
+
+# 使用包装脚本启动，解决库兼容性问题
+ExecStart=/home/bxi/M2_SDK/scripts/asr_wrapper.sh
+
 Restart=always
-RestartSec=3
+RestartSec=5
 StandardOutput=journal
 StandardError=journal
 
-# 环境变量设置
-Environment=HOME=/home/bxi
-Environment=LD_LIBRARY_PATH=/home/bxi/M2_SDK/offline_mic/libs/x64:/home/bxi/M2_SDK/offline_mic/bin
+# 增加启动超时时间
+TimeoutStartSec=30
+TimeoutStopSec=10
 
-# 确保日志目录存在
+# 确保日志目录和脚本权限
 ExecStartPre=/bin/mkdir -p /home/bxi/M2_SDK/log
+ExecStartPre=/bin/chmod +x /home/bxi/M2_SDK/scripts/asr_wrapper.sh
 
 [Install]
 WantedBy=multi-user.target
