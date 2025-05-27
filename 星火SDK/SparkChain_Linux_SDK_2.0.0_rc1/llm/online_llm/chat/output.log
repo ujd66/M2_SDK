@@ -1,0 +1,6 @@
+[32m[Config Info] LLMConfig domain set to: generalv3.5
+[0m[32mSpark LLM ready (using JSON mode with persona '精灵'). Waiting for input from /home/bxi/M2_SDK/log/asr_output.txt...
+[0m[33mRead from file: [IAT Partial Result: [ 你好精灵，请介绍一下你自己 ]]
+[0m[33mExtracted transcribed text: [你好精灵，请介绍一下你自己]
+[0m[33mSending request to Spark LLM...
+[0m[33m我是[0m[33m上海半[0m[33m醒科技有限公司研发[0m[33m的“精灵”[0m[33m人形机器人，能[0m[33m为您提供各类服务，随时为您[0m[33m效劳。[0m

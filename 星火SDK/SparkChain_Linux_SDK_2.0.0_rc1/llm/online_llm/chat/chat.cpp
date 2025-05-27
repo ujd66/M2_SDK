@@ -253,15 +253,18 @@ public:
     {
         if(result->getContentType() == LLMResult::TEXT){
             const char* content  = result->getContent();
-            int status           = result->getStatus();
-            printf(YELLOW "%s" RESET, content);
-            fflush(stdout); // Flush output immediately            accumulated_text += content; // Accumulate text chunks
+            int status           = result->getStatus();            printf(YELLOW "%s" RESET, content);
+            fflush(stdout); // Flush output immediately
+            
+            accumulated_text += content; // Accumulate text chunks
             
             if (status == 2) {
                 printf(YELLOW "\n" RESET);
-                finish = true;
-                // Call text_to_speech with the accumulated content
+                finish = true;                // Call text_to_speech with the accumulated content
                 if (!accumulated_text.empty()) {
+                    fprintf(stderr, "DEBUG: About to call TTS with text (length=%zu): '%s'\n", 
+                            accumulated_text.length(), accumulated_text.c_str());
+                    
                     // 写入控制文件通知ASR暂停监听
                     FILE* pause_file = fopen("/home/bxi/M2_SDK/log/tts_speaking", "w");
                     if (pause_file != NULL) {
@@ -274,7 +277,10 @@ public:
                     usleep(100000); // 100ms
                     
                     // 进行语音合成
-                    text_to_speech(accumulated_text.c_str(), tts_session_begin_params);
+                    fprintf(stderr, "DEBUG: Calling text_to_speech function...\n");
+                    int tts_result = text_to_speech(accumulated_text.c_str(), tts_session_begin_params);
+                    fprintf(stderr, "DEBUG: text_to_speech returned: %d\n", tts_result);
+                    
                     accumulated_text.clear(); // Clear accumulated text after synthesis
                     
                     // 语音合成结束后，删除控制文件，通知ASR可以继续监听
@@ -284,6 +290,8 @@ public:
                     
                     // 给ASR足够的时间恢复监听
                     usleep(100000); // 100ms
+                } else {
+                    fprintf(stderr, "DEBUG: accumulated_text is empty, skipping TTS\n");
                 }
             }
         }
