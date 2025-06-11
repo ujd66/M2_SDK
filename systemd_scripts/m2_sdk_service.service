@@ -1,0 +1,14 @@
+[Unit]
+Description=M2 SDK Voice Interaction System
+After=network.target
+
+[Service]
+Type=simple
+User=bxi
+WorkingDirectory=/home/bxi/M2_SDK
+ExecStart=/home/bxi/M2_SDK/start_system.sh
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

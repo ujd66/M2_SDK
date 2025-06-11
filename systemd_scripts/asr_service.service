@@ -1,0 +1,14 @@
+[Unit]
+Description=ASR Offline Record Service
+After=network.target
+
+[Service]
+Type=simple
+User=bxi
+WorkingDirectory=/home/bxi/M2_SDK
+ExecStart=/home/bxi/M2_SDK/offline_mic/bin/asr_offline_record_sample
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

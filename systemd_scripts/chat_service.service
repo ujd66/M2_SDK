@@ -1,0 +1,15 @@
+[Unit]
+Description=Spark Chat Demo Service
+After=asr_service.service
+Requires=asr_service.service
+
+[Service]
+Type=simple
+User=bxi
+WorkingDirectory=/home/bxi/M2_SDK
+ExecStart=/home/bxi/M2_SDK/星火SDK/SparkChain_Linux_SDK_2.0.0_rc1/llm/online_llm/chat/chat_demo
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
