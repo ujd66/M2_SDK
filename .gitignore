@@ -1,0 +1,82 @@
+# 编译产物和可执行文件
+*.o
+*.so
+*.a
+*.out
+*.exe
+a.out
+build/
+**/build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 临时文件和日志
+*.log
+*.tmp
+*.temp
+*.pcm
+*.wav
+*.cache
+msc.log
+*.ldata
+*.data
+
+# IDE和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.pb
+
+# 语音识别相关的临时文件和缓存
+msc/
+files/
+**/files/
+**/msc/
+logan_cache/
+ilog_v1/
+*.mmap2
+records.log
+
+# 配置文件中的敏感信息
+*.cfg
+
+# 系统文件
+Thumbs.db
+desktop.ini
+
+# 项目特定的临时文件
+offline_mic/audio/*.pcm
+offline_mic/wav/*.pcm
+69a4ef4ease
+**/69a4ef4ease
+
+# 压缩包和下载文件
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+
+# macOS 相关
+__MACOSX/
+._*
+
+# 音频和媒体文件
+*.mp3
+*.mp4
+*.avi
+*.mov
+
+# 生成的文档
+*.chm
+*.pdf
+*.doc
+
+# 测试和样例输出
+tts_sample.wav
+*.sample
