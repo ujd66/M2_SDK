@@ -1,6 +1,7 @@
 # 编译产物和可执行文件
 *.o
 *.so
+*.so.*
 *.a
 *.out
 *.exe
@@ -11,6 +12,9 @@ CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 Makefile
+libmsc.so
+liboffline_record_lib.so
+libSparkChain.so
 
 # 临时文件和日志
 *.log
@@ -22,6 +26,18 @@ Makefile
 msc.log
 *.ldata
 *.data
+*.urec
+*.d
+*.g
+records.log
+waiter.log
+grm_lex.log
+isr.log
+isr_local.log
+lgi.log
+local_build_*.log
+local_update_*.log
+cloud_cisr*.log
 
 # IDE和编辑器文件
 .vscode/
@@ -31,29 +47,35 @@ msc.log
 *~
 .DS_Store
 *.pb
+cursor_metadata.pb
 
 # 语音识别相关的临时文件和缓存
 msc/
 files/
 **/files/
 **/msc/
-logan_cache/
-ilog_v1/
+**/logan_cache/
+**/ilog_v1/
+offline_mic/bin/msc/
+offline_mic/audio/
+offline_mic/wav/
 *.mmap2
-records.log
+*.kaitalk.dat
 
 # 配置文件中的敏感信息
 *.cfg
+msc.cfg
 
 # 系统文件
 Thumbs.db
 desktop.ini
 
 # 项目特定的临时文件
-offline_mic/audio/*.pcm
-offline_mic/wav/*.pcm
 69a4ef4ease
 **/69a4ef4ease
+record_sample
+*.sample
+**/temp/
 
 # 压缩包和下载文件
 *.zip
@@ -71,6 +93,9 @@ __MACOSX/
 *.mp4
 *.avi
 *.mov
+*.jpg
+*.jpeg
+*.png
 
 # 生成的文档
 *.chm
@@ -79,4 +104,20 @@ __MACOSX/
 
 # 测试和样例输出
 tts_sample.wav
-*.sample
+**/pack-*.idx
+**/pack-*.pack
+
+# git内部文件
+.git/objects/
+.git/logs/
+.git/refs/
+.git/index
+.git/FETCH_HEAD
+.git/HEAD
+
+# 特定目录和文件模式
+**/de6b313eead9808dcbe64acaac51722e/
+**/ace4e63884fd3b566ba68fde3bcabc9c/
+**/14568787b9f27199e9ec950aa0af565e/
+**/de2e56ee43dd9d58bd13607dacb2ed23/
+**/GrmBuilld/
